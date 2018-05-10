@@ -9,8 +9,7 @@ use \DrewM\MailChimp\MailChimp;
 use \DrewM\MailChimp\Batch;
 $mp = new MailChimp($mailchimp_api_key);
 
-
-$year = 2017;
+$year = 2018;
 require '/mnt/x/Data/www/MAD/apps/driller/models/Common.php';
 require '/mnt/x/Data/www/MAD/apps/driller/models/CPP_Agreement.php';
 $model = new Common;
